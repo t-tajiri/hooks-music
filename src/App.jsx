@@ -1,8 +1,8 @@
 import React from 'react'
-import Header from './Header.jsx'
+import { Header } from './Header.jsx'
 import './App.css'
 
-function App() {
+export function App() {
   return (
     <div className="App">
       <Header />
@@ -22,5 +22,3 @@ function App() {
     </div>
   )
 }
-
-export default App

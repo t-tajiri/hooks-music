@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Header () {
+export function Header () {
   return (
     <nav id="navigation">
       <a href="#top">
@@ -12,4 +12,3 @@ function Header () {
   )
 }
 
-export default Header
