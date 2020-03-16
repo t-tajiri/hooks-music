@@ -1,8 +1,8 @@
 import React from 'react'
-import { Header } from './Header.jsx'
 import './App.css'
-import { Home } from './Home.jsx'
-import { Login } from './Login'
+import { Header } from './components/Header.jsx'
+import { Home } from './components/Home.jsx'
+import { Login } from './components/Login.jsx'
 
 export const AuthContext = React.createContext()
 

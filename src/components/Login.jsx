@@ -1,5 +1,5 @@
 import React from 'react'
-import { AuthContext } from './App.jsx'
+import { AuthContext } from '../App.jsx'
 
 export function Login () {
   const { dispatch } = React.useContext(AuthContext)
