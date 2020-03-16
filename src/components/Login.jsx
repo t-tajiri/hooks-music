@@ -73,7 +73,7 @@ export function Login () {
             </label>
             <label htmlFor={'password'}>
               Password
-              <input type="text" name="password" id="password" value={data.password} onChange={onInputChange} />
+              <input type="password" name="password" id="password" value={data.password} onChange={onInputChange} />
             </label>
             {data.errorMessage && (<span className="form-error">{data.errorMessage}</span>)}
             <button disabled={data.isSubmitting}>
